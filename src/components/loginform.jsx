@@ -33,7 +33,7 @@ export default function Loginform() {
                         <h1 className="text-sm/[16px] flex">Nomero y'indangamuntu <h1 className="text-red-600">*</h1></h1>
                         <input type="text" className="border-2 border-gray-200 rounded-md h-10 px-2 text-sm/[16px] hover:shadow-lg transition-all duration-150 ease-in-out" placeholder="Shyiramo nomero y'indangamuntu"/>
                         <h1 className="text-sm/[16px] flex">Nomero ya telefoni (Rwanda) <h1 className="text-red-600">*</h1></h1>
-                        <input type="password" className="border-2 border-gray-200 rounded-md h-10 px-2 text-sm/[16px] hover:shadow-lg transition-all duration-150 ease-in-out" placeholder="Andika Nomero ya Telefoni"/>
+                        <input type="text" className="border-2 border-gray-200 rounded-md h-10 px-2 text-sm/[16px] hover:shadow-lg transition-all duration-150 ease-in-out" placeholder="Andika Nomero ya Telefoni"/>
                         <button className="rounded-md h-10 px-2 bg-blue-400 text-white text-sm/[16px]">Iyandikishe</button>
                         <h1 className="text-sm/[24px]">Mu kwiyandikisha, uremeza gukoresha <a href="#" className="text-blue-600"> amabwiriza</a> mashya ya IremboGov harimo n'ayo <a href="#" className="text-blue-600">kurinda amakuru </a>bwite.</h1>
 
