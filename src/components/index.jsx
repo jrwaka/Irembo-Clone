@@ -3,10 +3,10 @@ export default function Index() {
     return(
         <div>
             <div className="py-3 flex justify-center items-center text-center w-full bg-yellow-400 text-sm fixed top-0 left-0 right-0">
-                <p className="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="20px" fill="black"><path d="M192-216v-72h48v-240q0-87 53.5-153T432-763v-53q0-20 14-34t34-14q20 0 34 14t14 34v53q85 16 138.5 82T720-528v240h48v72H192Zm288-276Zm-.21 396Q450-96 429-117.15T408-168h144q0 30-21.21 51t-51 21ZM312-288h336v-240q0-70-49-119t-119-49q-70 0-119 49t-49 119v240Z"/></svg><h1 className="font-semibold">Igishya!</h1> Umwaka wa mituweli 2024/2025 watangiye. Ishyurira umuryango wawe  <a href="#" className="font-semibold underline"> hano</a></p>
+                <p className="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.8} stroke="blue" className="size-6"><path strokeLinecap="round" strokeLinejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" /></svg><h1 className="font-semibold">Igishya!</h1> Umwaka wa mituweli 2024/2025 watangiye. Ishyurira umuryango wawe  <a href="#" className="font-semibold underline"> hano</a></p>
             </div>
 
-            <div className="flex flex-row py-4 bg-blue-600 shadow-2xl justify-around fixed top-[50px] left-0 right-0">
+            <div className="flex flex-row py-4 bg-blue-600 shadow-2xl justify-around fixed top-[48px] left-0 right-0">
                 <div className="w-32 flex flex-row items-center">
                 <img src="irembo-gov.svg" alt=""/>
                 </div>
