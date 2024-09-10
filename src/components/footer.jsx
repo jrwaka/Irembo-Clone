@@ -2,10 +2,10 @@ import React from 'react';
 export default function Footer() {
     return(
         <div>
-            <div className='flex flex-row gap-14 ml-28 mb-4'>
-                <h1 className='text-sm'>Uburenganzira bw'Irembo 2024 burubahirizwa</h1>
+            <div className='flex lg:flex-row flex-col justify-center items-center lg:gap-16 gap-5 lg:ml-0 lg:mb-8 mb-0 lg:bg-white bg-blue-500 lg:py-0 py-10 lg:text-black text-white'>
+                <h1 className='text-sm'>Uburenganzira bw'Irembo &copy;2024 burubahirizwa</h1>
 
-                <a href='' className='text-sm text-blue-600 font-semibold flex flex-row gap-2'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6"> <path strokeLinecap="round" strokeLinejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" /></svg> Ahatangirwa  ubufasha</a>
+                <a href='' className='text-sm lg:text-blue-600 font-semibold flex flex-row gap-2'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6"> <path strokeLinecap="round" strokeLinejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" /></svg> Ahatangirwa  ubufasha</a>
                 <h1 className='text-sm flex flex-row gap-4'>Dukurikire kuri
                 <a href="#" className='mt-1'><svg xmlns="http://www.w3.org/2000/svg" width="18" height="14" viewBox="0 0 24 20"><path fill="#5C6685" fill-rule="evenodd" d="M23.75 2.368a9.874 9.874 0 0 1-2.805.797 4.99 4.99 0 0 0 2.141-2.79A9.526 9.526 0 0 1 20 1.597 4.8 4.8 0 0 0 16.442 0c-2.695 0-4.865 2.268-4.865 5.048 0 .4.032.784.112 1.15C7.642 5.994 4.06 3.983 1.654.92a5.223 5.223 0 0 0-.667 2.55c0 1.748.868 3.298 2.163 4.195a4.68 4.68 0 0 1-2.2-.622v.055c0 2.453 1.688 4.49 3.9 4.959a4.698 4.698 0 0 1-1.276.166c-.311 0-.626-.018-.921-.086.63 1.998 2.42 3.468 4.55 3.515a9.567 9.567 0 0 1-6.038 2.153c-.4 0-.782-.019-1.165-.07A13.36 13.36 0 0 0 7.47 20c8.96 0 13.857-7.692 13.857-14.36 0-.223-.007-.438-.017-.652a9.916 9.916 0 0 0 2.44-2.62"></path></svg></a>
                 

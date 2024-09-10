@@ -39,9 +39,9 @@ const Loginform = () => {
     };
 
     return (
-        <div className="mt-48">
+        <div className="lg:mt-40 mt-4">
             <div className="flex flex-row m-20 justify-center items-center">
-                <div className="bg-gradient-to-t from-blue-500 to-blue-600 w-[38rem] h-screen rounded-l-md">
+                <div className="lg:flex flex-row hidden bg-gradient-to-t from-blue-500 to-blue-600 w-[38rem] h-screen rounded-l-md">
                     <div className="p-20 flex flex-col gap-6">
                         <h1 className="font-semibold text-white text-5xl">Gufungura konti</h1>
                         <h1 className="font-normal text-white text-wrap text-lg">Kurikiza aya mabwiriza yo kwiyandikisha kugirango udufashe kugufungurira konti</h1>
@@ -66,14 +66,14 @@ const Loginform = () => {
                 </div>
 
                 <div className="bg-white justify-center items-center w-[26rem] h-screen rounded-r-md shadow-2xl">
-                    <form onSubmit={handleSubmit} className="py-24 px-10 flex flex-col gap-4">
+                    <form onSubmit={handleSubmit} className="lg:py-24 py-20 lg:px-10 px-14 flex flex-col gap-4">
                         <h1 className="font-semibold text-lg/[18px]">Gufungura konti</h1>
                         <h1 className="text-sm/[16px] flex">Email yawe <span className="text-red-600">*</span></h1>
 
                         <input
                             type="text"
                             name="email"  // Added name attribute
-                            className="border-2 border-gray-200 rounded-md h-10 px-2 text-sm/[16px] hover:shadow-lg transition-all duration-150 ease-in-out"
+                            className="border-2 border-gray-200 rounded-md h-10 px-2 lg:text-sm/[16px] text-[12px] hover:shadow-lg transition-all duration-150 ease-in-out"
                             placeholder="Shyiramo email yawe"
                             onChange={handleChange}
                         />
@@ -84,8 +84,8 @@ const Loginform = () => {
                         <input
                             type="password"
                             name="password"  // Added name attribute
-                            className="border-2 border-gray-200 rounded-md h-10 px-2 text-sm/[16px] hover:shadow-lg transition-all duration-150 ease-in-out"
-                            placeholder="Shyiramo ijambo banga ryawe"
+                            className="border-2 border-gray-200 rounded-md h-10 px-2 lg:text-sm/[16px] text-[12px] hover:shadow-lg transition-all duration-150 ease-in-out"
+                            placeholder="Shyiramo ijambo banga"
                             onChange={handleChange}
                         />
                         {errors.password && <p className="text-red-600 text-sm/[16px]">{errors.password}</p>}
